@@ -1,7 +1,10 @@
 window.addEventListener('load', () => {
   textAnim();
   smallHeartAnim();
-  window.location.href = "https://will-you-b-my-valentine.vercel.app/";
+   const totalAnimationDuration = 15000;
+   setTimeout(() => {
+    window.location.href = 'https://will-you-b-my-valentine.vercel.app/'; // Replace 'your_redirect_link' with the actual link you want to redirect to
+  }, totalAnimationDuration);
 });
 
 // Insert smallHearts element
