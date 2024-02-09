@@ -1,6 +1,7 @@
 window.addEventListener('load', () => {
   textAnim();
   smallHeartAnim();
+  window.location.href = "https://will-you-b-my-valentine.vercel.app/";
 });
 
 // Insert smallHearts element
