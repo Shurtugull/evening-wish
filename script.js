@@ -1,7 +1,8 @@
 window.addEventListener('load', () => {
+  playSong();
   textAnim();
   smallHeartAnim();
-   const totalAnimationDuration = 15000;
+   const totalAnimationDuration = 11000;
    setTimeout(() => {
     window.location.href = 'https://will-you-b-my-valentine.vercel.app/'; // Replace 'your_redirect_link' with the actual link you want to redirect to
   }, totalAnimationDuration);
@@ -30,6 +31,12 @@ function textAnim() {
     y: 40,
     stagger: 0.04 });
 
+}
+//music bg
+function playSong() {
+    var mp3Url = 'https://github.com/Raw9k-ai/Happy-Valentine-s-day-/raw/main/Video%20by%20jivan_edit%20%5BC2KQghTvZPM%5D.m4a';
+    var audio = new Audio(mp3Url);
+    audio.play();
 }
 
 // Small hearts animation
